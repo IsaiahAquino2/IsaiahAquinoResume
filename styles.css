@@ -1,0 +1,37 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.top-heading {
+    color: rgb(13, 133, 2);
+}
+
+.profile-image {
+    max-width: 150px;
+    display: block;
+    margin-top: 10px;
+}
+
+.small-image {
+    max-width: 50px;
+    margin: 10px;
+}
+
+.icon-container {
+    text-align: left;
+    margin-top: 20px;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+h2 {
+    margin-top: 5px;
+}
+
+hr {
+    margin: 20px 0;
+}
