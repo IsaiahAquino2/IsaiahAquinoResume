@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Hobby</title>
+    <link rel="stylesheet" href="hobby.css">
+</head>
+
+<body>
+
+<h1>About Me</h1>
+
+<div class="about-section">
+    <p>
+        My name is Isaiah Aquino, I enjoy playing video games. This includes a wide range from
+        mobile games, to console games, to PC games.
+    </p>
+
+    <img src="Isaiah.png" alt="Isaiah Aquino Yearbook Photo" class="profile-img">
+</div>
+
+<hr>
+
+<h2>&#127918;Games I Enjoy</h2>
+
+<!-- FLEXBOX CONTAINER -->
+<div class="games-container">
+
+    <div class="game-card">
+        <h3>Rainbow Six Siege</h3>
+        <img src="https://image.api.playstation.com/vulcan/ap/rnd/202602/2616/d8a27f82230a7f4df3b2c8b7562430aa7be9d1cc6b0bd4aa.jpg" alt="Rainbow Six Siege">
+    </div>
+
+    <div class="game-card">
+        <h3>Marvel Rivals</h3>
+        <img src="https://cdn2.unrealengine.com/01-1920x1080-1920x1080-88255a697e4f.jpg" alt="Marvel Rivals">
+    </div>
+
+    <div class="game-card">
+        <h3>Valorant</h3>
+        <img src="https://www.riotgames.com/darkroom/1440/8d5c497da1c2eeec8cffa99b01abc64b:5329ca773963a5b739e98e715957ab39/ps-f2p-val-console-launch-16x9.jpg" alt="Valorant">
+    </div>
+
+</div>
+
+<hr>
+
+<h2>&#127909; Gameplay Video</h2>
+
+<!-- VIDEO SECTION -->
+<video width="400" controls>
+    <source src="IsaiahAquinoDestiny2.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+<hr>
+
+<h2>&#128221; Gamer Survey</h2>
+
+<!-- FORM -->
+<form class="survey-form">
+    <label for="game">Favorite Game:</label><br>
+    <input type="text" id="game" name="game"><br><br>
+
+    <label for="platform">Favorite Platform:</label><br>
+    <select id="platform" name="platform">
+        <option>PC</option>
+        <option>Console</option>
+        <option>Mobile</option>
+    </select><br><br>
+
+    <label>How often do you play?</label><br>
+    <input type="radio" name="time"> Daily<br>
+    <input type="radio" name="time"> Weekly<br>
+    <input type="radio" name="time"> Occasionally<br><br>
+
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
