@@ -4,7 +4,7 @@ body {
     margin: 20px;
 }
 
-.top-heading {
+.top-heading h1, .top-heading h2{
     color: black;
 }
 
